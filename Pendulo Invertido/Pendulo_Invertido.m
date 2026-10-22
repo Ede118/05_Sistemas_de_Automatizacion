@@ -94,6 +94,7 @@ dx_init = 0;
 dtheta_init = 0;
 
 x_init  = 0;
+% theta_init = pi/4;
 theta_init = pi - 20 * pi/180;
 
 
