@@ -1,0 +1,45 @@
+G = 6/((2*s+1)*(6*s+1))
+H = 0.5/(0.1*s+1)
+GLA = G * H
+Ku = 28.46
+Tu = 2.42
+
+#Hacer antitransformada con comando ilt()
+#Hacer grafico de la antitransformada en el tiempo 
+#Eso último no se hacerlo
+
+#Ejercicio 4.b
+
+Kp = 0.5*Ku
+Gc1 = Kp
+G1 = Gc1 * GLA
+GLC1 = G1/(1+G1*H)
+ilt(G1)
+
+#Ejercicio 4.c
+
+Kp = 0.45*Ku
+Ki = 1.2/Tu
+Gc2 = Kp*(1+Ki/s)
+G2 = Gc2 * GLA
+GLC2 = G2/(1+G2*H)
+ilt(G2)
+
+#Ejercicio 4.d
+
+Kp = 0.45*Ku
+Ki = 1.2/Tu
+Gc3 = Kp*(1+Ki/s)
+G3 = Gc3 * GLA
+GLC3 = G3/(1+G3*H)
+ilt(G3)
+
+#Ejercicio 4.e
+
+Kp = Ku/1.7
+Kd = Tu/8
+Gc4 = Kp*(1+Kd*s)
+G4 = Gc4 * GLA
+GLC4 = G4/(1+G4*H)
+ilt(G4)
+

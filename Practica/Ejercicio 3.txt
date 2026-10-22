@@ -1,0 +1,81 @@
+G = 6/((2*s+1)*(6*s+1))
+H = 0.5/(0.1*s+1)
+
+#Sacarle captura a cada bode(), nyquist() y rootlocus()
+#de todas las funciones
+
+#Ejercicio 3.a
+
+GLA = G * H
+
+bode(GLA)
+nyquist(GLA)
+rootlocus(GLA)
+
+#De estos graficos obtener: Kcu, Tu, Gss, Constantes de Tiempo
+Margen de ganancia y de fase, Wu, Asintotas
+
+
+#Ejercicio 3.b
+
+Kp = 0.5*Ku
+Gc1 = Kp
+G1 = Gc1 * GLA
+
+bode(Gc1)
+nyquist(Gc1)
+rootlocus(Gc1)
+
+bode(G1)
+nyquist(G1)
+rootlocus(G1)
+
+#Ejercicio 3.c
+
+Kp = 0.45*Ku
+Ki = 1.2/Tu
+Gc2 = Kp*(1+Ki/s)
+G2 = Gc2 * GLA
+
+bode(Gc2)
+nyquist(Gc2)
+rootlocus(Gc2)
+
+bode(G2)
+nyquist(G2)
+rootlocus(G2)
+
+#Ejercicio 3.d
+
+Kp = Ku/1.7
+Kd = Tu/8
+Gc3 = Kp*(1+Kd*s)
+G3 = Gc3 * GLA
+
+bode(Gc)
+nyquist(Gc3)
+rootlocus(Gc3)
+
+bode(G3)
+nyquist(G3)
+rootlocus(G3)
+
+
+#Ejercicio 3.e
+
+Kp = 0.6**Ku
+Ki = 2.0Tu
+Kd = Tu/8
+Gc4 = Kp*(1+Ki/s+Kd*s)
+G4 = Gc4 * GLA
+
+bode(Gc4)
+nyquist(Gc4)
+rootlocus(Gc4)
+
+bode(G4)
+nyquist(G4)
+rootlocus(G4)
+
+
+
