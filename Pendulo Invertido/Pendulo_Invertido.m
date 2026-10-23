@@ -109,6 +109,14 @@ J = m2*l*l + I;
 k = m2*l;
 g  = 9.80665;
 
+%%\ Ganancias de traslación
+omega_x = 6;
+zeta_x  = 0.9;
+
+Kpx     = omega_x^2/g;
+Kdx     = 2*zeta_x*omega_x/g;
+Kix     = 0;
+
 
 %[appendix]{"version":"1.0"}
 %---
