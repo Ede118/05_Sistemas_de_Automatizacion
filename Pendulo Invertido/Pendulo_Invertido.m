@@ -100,34 +100,50 @@ x_min_operacion = x_min_fisico + margen;
 x_max_operacion = x_max_fisico - margen;
 
 % Valores iniciales
-dx_init = 0;
+dx_init     = 0;
 dtheta_init = 0;
 
-x_init  = 0;
-% theta_init = pi/4;
-theta_init = pi - 20 * pi/180;
+x_init      = 0;
+ theta_init = pi/4;
+% theta_init  = pi - 20 * pi/180;
+
+%%\ Coeficientes del motor
+% Valores provisionales: reemplazar por los del conjunto motor/driver real.
+% Hipotesis nominal de trabajo, no ficha tecnica: F_max = 50 N.
+kt          = 0.1;          % [Nm/A] Pendiente de medir.
+ke          = 0.1;          % [V/rpm] Pendiente de medir.
+r           = 0.010;        % [m]  Radio del piñon
+i_m_max     = 5;            % [A]
+i_m_min     = -i_m_max;     % [A]
+Ra          = 1;            % [Omh]
+La          = 1;            % [F]
+b_m         = 1;            % [Nm/rpm]
+
+m1          = 1;
+m2          = 1;
+I           = 1;
+l           = 1;
+b_theta     = 1;
+b_x         = 1;
+
+M           = m1+m2;
+Jp          = m2*l*l + I;
+Jm          = 1;
+Meq         = M + Jm/(r*r);
+k           = m2*l;
+g           = 9.80665;
 
 
-m1 = 1;
-m2 = 1;
-I  = 1;
-l  = 1;
-c_theta = 1;
-
-M = m1+m2;
-J = m2*l*l + I;
-k = m2*l;
-g  = 9.80665;
 
 %%\ Ganancias de traslación
 % Ajuste nominal: el lazo de posicion debe ser mas lento que el angular.
 % Estos valores estabilizan el modelo actual; no son una calibracion fisica.
-omega_x = 0.4;
-zeta_x  = 0.9;
+omega_x     = 0.4;
+zeta_x      = 0.9;
 
-Kpx     = omega_x^2/g;
-Kdx     = 2*zeta_x*omega_x/g;
-Kix     = 0;
+Kpx         = omega_x^2/g;
+Kdx         = 2*zeta_x*omega_x/g;
+Kix         = 0;
 
 %%\ Ganancias angulares y muestreo de la medicion de velocidad
 omega_theta = 4;          % [rad/s]
@@ -137,15 +153,6 @@ Kd_theta    = 2*zeta_theta*omega_theta;
 Ki_theta    = 0;
 Ts_medicion = 1e-3;       % [s] Solo el estimador; el controlador sigue continuo.
 
-%%\ Coeficientes del motor
-% Valores provisionales: reemplazar por los del conjunto motor/driver real.
-% Hipotesis nominal de trabajo, no ficha tecnica: F_max = 50 N.
-kt      = 0.1;          % [Nm/A] Pendiente de medir.
-r       = 0.010;        % [m]  Radio del piñon
-i_m_max = 5;            % [A]
-i_m_min = -i_m_max;     % [A]
-Ra      = 1;            % [Omh]
-La      = 1;            % [F]
 
 
 %[appendix]{"version":"1.0"}
