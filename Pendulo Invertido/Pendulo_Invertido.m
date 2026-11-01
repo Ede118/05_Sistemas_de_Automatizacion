@@ -90,6 +90,16 @@
 %[text]{"align":"center"} $e\_{\\mathrm{eq}}=0, \\qquad z\_{\\mathrm{eq}}=-\\frac{d\_0}{K\_I}.$
 %[text] La acción integral conserva la corrección necesaria para compensar la perturbación, aun cuando el error angular se anula.
 %[text] ## Código
+% Hipótesis de trabajo hasta medir la maqueta.
+% El origen x = 0 se ubica en el centro del recorrido.
+x_min_fisico = -0.75;      % [m]
+x_max_fisico =  0.75;      % [m]
+
+margen = 0.15;             % [m] Provisional; debe validarse.
+x_min_operacion = x_min_fisico + margen;
+x_max_operacion = x_max_fisico - margen;
+
+% Valores iniciales
 dx_init = 0;
 dtheta_init = 0;
 
@@ -110,12 +120,32 @@ k = m2*l;
 g  = 9.80665;
 
 %%\ Ganancias de traslación
-omega_x = 6;
+% Ajuste nominal: el lazo de posicion debe ser mas lento que el angular.
+% Estos valores estabilizan el modelo actual; no son una calibracion fisica.
+omega_x = 0.4;
 zeta_x  = 0.9;
 
 Kpx     = omega_x^2/g;
 Kdx     = 2*zeta_x*omega_x/g;
 Kix     = 0;
+
+%%\ Ganancias angulares y muestreo de la medicion de velocidad
+omega_theta = 4;          % [rad/s]
+zeta_theta  = 0.9;
+Kp_theta    = omega_theta^2;
+Kd_theta    = 2*zeta_theta*omega_theta;
+Ki_theta    = 0;
+Ts_medicion = 1e-3;       % [s] Solo el estimador; el controlador sigue continuo.
+
+%%\ Coeficientes del motor
+% Valores provisionales: reemplazar por los del conjunto motor/driver real.
+% Hipotesis nominal de trabajo, no ficha tecnica: F_max = 50 N.
+kt      = 0.1;          % [Nm/A] Pendiente de medir.
+r       = 0.010;        % [m]  Radio del piñon
+i_m_max = 5;            % [A]
+i_m_min = -i_m_max;     % [A]
+Ra      = 1;            % [Omh]
+La      = 1;            % [F]
 
 
 %[appendix]{"version":"1.0"}
