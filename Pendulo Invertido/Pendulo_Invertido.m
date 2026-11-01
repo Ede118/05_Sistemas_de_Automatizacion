@@ -92,10 +92,11 @@
 %[text] ## Código
 % Hipótesis de trabajo hasta medir la maqueta.
 % El origen x = 0 se ubica en el centro del recorrido.
-x_min_fisico = -0.75;      % [m]
-x_max_fisico =  0.75;      % [m]
+x_total      = 1;               % [m]
+x_min_fisico = -x_total/2;      % [m]
+x_max_fisico =  x_total/2;      % [m]
+margen       = 0.1;             % [m] Provisional; debe validarse.
 
-margen = 0.15;             % [m] Provisional; debe validarse.
 x_min_operacion = x_min_fisico + margen;
 x_max_operacion = x_max_fisico - margen;
 
@@ -103,42 +104,54 @@ x_max_operacion = x_max_fisico - margen;
 dx_init     = 0;
 dtheta_init = 0;
 
+i_init      = 0;
 x_init      = 0;
- theta_init = pi/4;
-% theta_init  = pi - 20 * pi/180;
+% theta_init = pi/4;
+ theta_init  = pi - 20 * pi/180;
 
 %%\ Coeficientes del motor
-% Valores provisionales: reemplazar por los del conjunto motor/driver real.
-% Hipotesis nominal de trabajo, no ficha tecnica: F_max = 50 N.
-kt          = 0.1;          % [Nm/A] Pendiente de medir.
-ke          = 0.1;          % [V/rpm] Pendiente de medir.
-r           = 0.010;        % [m]  Radio del piñon
-i_m_max     = 5;            % [A]
+% Nominal didactico: PMDC de 24 V, transmision directa ideal (sin reductora).
+% Referencia de escala: maxon RE 35, 90 W, devanado 323890.
+% https://www.maxongroup.com/medias/sys_master/root/9398013263902/Cataloge-Page-EN-161.pdf
+% No es una seleccion de componentes ni una identificacion de la maqueta.
+kt          = 0.0292;       % [N*m/A] Referencia de catalogo.
+ke          = kt;           % [V*s/rad] Modelo PMDC ideal, unidades SI.
+r           = 0.010;        % [m] Radio primitivo supuesto: 10 mm.
+i_m_max     = 5;            % [A] Limite de ensayo; no corriente continua certificada.
 i_m_min     = -i_m_max;     % [A]
-Ra          = 1;            % [Omh]
-La          = 1;            % [F]
-b_m         = 1;            % [Nm/rpm]
+Ra          = 0.577;        % [ohm] Referencia de catalogo.
+La          = 0.191e-3;     % [H] Referencia de catalogo: 0.191 mH.
+b_m         = 2e-6;         % [N*m*s/rad] Perdidas viscosas supuestas; medir.
+v_max       = 24;           % [V]
+v_min       = -v_max;       % [V]
 
-m1          = 1;
-m2          = 1;
-I           = 1;
-l           = 1;
-b_theta     = 1;
-b_x         = 1;
+% Carrito de 0.5 kg y barra uniforme de 0.6 m, 0.2 kg, pivote en un extremo.
+% l mide del pivote al centro de masa; I se refiere al centro de masa.
+m1          = 0.50;         % [kg] Incluye todo lo que se traslada con el carro.
+m2          = 0.20;         % [kg] Barra y accesorios idealizados como barra uniforme.
+l           = 0.30;         % [m] Semilongitud de la barra.
+I           = m2*(2*l)^2/12;% [kg*m^2] Inercia de barra uniforme respecto del CM.
+b_theta     = 1e-3;         % [N*m*s/rad] Rozamiento viscoso de pivote supuesto.
+b_x         = 0.10;         % [N*s/m] Rozamiento viscoso de guia supuesto.
 
 M           = m1+m2;
 Jp          = m2*l*l + I;
-Jm          = 1;
+Jm          = 7.9e-6;       % [kg*m^2] 79 g*cm^2; solo rotor, sin carga duplicada.
 Meq         = M + Jm/(r*r);
 k           = m2*l;
 g           = 9.80665;
 
 
+%%\ Ganancias del Lazo de Corriente
+omega_i     = 500;          % [rad/s]
+Kp_i        = La*omega_i;
+Kd_i        = 0;
+Ki_i        = Ra*omega_i;
 
 %%\ Ganancias de traslación
 % Ajuste nominal: el lazo de posicion debe ser mas lento que el angular.
-% Estos valores estabilizan el modelo actual; no son una calibracion fisica.
-omega_x     = 0.4;
+% Se conserva el diseno existente; validar con la nueva planta y sus limites.
+omega_x     = 1.0;
 zeta_x      = 0.9;
 
 Kpx         = omega_x^2/g;
@@ -146,8 +159,8 @@ Kdx         = 2*zeta_x*omega_x/g;
 Kix         = 0;
 
 %%\ Ganancias angulares y muestreo de la medicion de velocidad
-omega_theta = 4;          % [rad/s]
-zeta_theta  = 0.9;
+omega_theta = 14;          % [rad/s]
+zeta_theta  = 0.7;
 Kp_theta    = omega_theta^2;
 Kd_theta    = 2*zeta_theta*omega_theta;
 Ki_theta    = 0;
