@@ -1,0 +1,633 @@
+
+	Trial License -- for use to evaluate programs for possible purchase as an end-user only.
+
+    ----------------------------------------------------
+	Your license will expire in 6 days.
+	Please contact your system administrator or
+	go to MathWorks.com to renew this license.
+    ----------------------------------------------------
+CARPETA_RESULTADOS C:\Users\fedeb\Documents\Github\05_Sistemas_de_Automatizacion\Pendulo Invertido\resultados_barrido_theta\20261101_165038_910
+BARRIDO 18 casos; posicion fija: Kpx=0.10197162 Kdx=0.18354892 Kix=0
+[Warning: Parameter precision loss occurred for 'Gain' of 'main/Subsystem Reference1/Subsystem Reference1/Gain1'.  The original value of the parameter, 0.7789999999999999, cannot
+be represented exactly using the run-time data type single. The value is quantized to 0.7789999842643738. Quantization error occurred with an absolute difference of
+1.5735626135437997e-8 and a relative difference of 2.01997768105751e-08.
+Suggested Actions:
+    • To control the level of precision loss at which a warning or error is issued, adjust the diagnostic threshold settings. - Open
+    • To review details in the Parameter Quantization Advisor app, click the Open button. - Open
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 86)] 
+[Warning: Parameter precision loss occurred for 'Gain' of 'main/Subsystem Reference1/Subsystem Reference1/Gain8'.  The original value of the parameter, 0.001, cannot be represented
+exactly using the run-time data type single. The value is quantized to 0.0010000000474974513. Quantization error occurred with an absolute difference of 4.749745128457272e-11 and
+a relative difference of 4.74974512845727e-08.
+Suggested Actions:
+    • To control the level of precision loss at which a warning or error is issued, adjust the diagnostic threshold settings. - Open
+    • To review details in the Parameter Quantization Advisor app, click the Open button. - Open
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 86)] 
+[Warning: Model 'main' contains 1 algebraic loops.
+Suggested Actions:
+    • Highlight and view information about the algebraic loops in the model using the Simulink.BlockDiagram.getAlgebraicLoops function. - Open
+    • Suppress this diagnostic by setting the 'Algebraic Loop' diagnostic parameter to 'none'. - Fix
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 86)] 
+Found algebraic loop that contains: 
+main/Subsystem Reference/Gain17
+main/Subsystem Reference/Sum11
+main/Subsystem Reference/Gain14
+main/Subsystem Reference/Product3
+main/Subsystem Reference/Gain12
+main/Subsystem Reference/Sum8
+main/Subsystem Reference/Sum6
+main/Subsystem Reference/Gain
+main/Subsystem Reference/Product6 (algebraic variable)
+[Warning: Wrap on overflow detected. This originated from 'main/Subsystem Reference1/Estimador de estado/Speed Measurement/SpeedCount'
+Suggested Actions:
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 86)] 
+[Warning: Parameter precision loss occurred for 'Gain' of 'main/Subsystem Reference1/Subsystem Reference1/Gain1'.  The original value of the parameter, 0.7789999999999999, cannot
+be represented exactly using the run-time data type single. The value is quantized to 0.7789999842643738. Quantization error occurred with an absolute difference of
+1.5735626135437997e-8 and a relative difference of 2.01997768105751e-08.
+Suggested Actions:
+    • To control the level of precision loss at which a warning or error is issued, adjust the diagnostic threshold settings. - Open
+    • To review details in the Parameter Quantization Advisor app, click the Open button. - Open
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 86)] 
+[Warning: Parameter precision loss occurred for 'Gain' of 'main/Subsystem Reference1/Subsystem Reference1/Gain8'.  The original value of the parameter, 0.001, cannot be represented
+exactly using the run-time data type single. The value is quantized to 0.0010000000474974513. Quantization error occurred with an absolute difference of 4.749745128457272e-11 and
+a relative difference of 4.74974512845727e-08.
+Suggested Actions:
+    • To control the level of precision loss at which a warning or error is issued, adjust the diagnostic threshold settings. - Open
+    • To review details in the Parameter Quantization Advisor app, click the Open button. - Open
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 86)] 
+[Warning: Wrap on overflow detected. This originated from 'main/Subsystem Reference1/Estimador de estado/Speed Measurement/SpeedCount'
+Suggested Actions:
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 86)] 
+[Warning: Parameter precision loss occurred for 'Gain' of 'main/Subsystem Reference1/Subsystem Reference1/Gain1'.  The original value of the parameter, 0.7789999999999999, cannot
+be represented exactly using the run-time data type single. The value is quantized to 0.7789999842643738. Quantization error occurred with an absolute difference of
+1.5735626135437997e-8 and a relative difference of 2.01997768105751e-08.
+Suggested Actions:
+    • To control the level of precision loss at which a warning or error is issued, adjust the diagnostic threshold settings. - Open
+    • To review details in the Parameter Quantization Advisor app, click the Open button. - Open
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 86)] 
+[Warning: Parameter precision loss occurred for 'Gain' of 'main/Subsystem Reference1/Subsystem Reference1/Gain8'.  The original value of the parameter, 0.001, cannot be represented
+exactly using the run-time data type single. The value is quantized to 0.0010000000474974513. Quantization error occurred with an absolute difference of 4.749745128457272e-11 and
+a relative difference of 4.74974512845727e-08.
+Suggested Actions:
+    • To control the level of precision loss at which a warning or error is issued, adjust the diagnostic threshold settings. - Open
+    • To review details in the Parameter Quantization Advisor app, click the Open button. - Open
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 86)] 
+[Warning: Wrap on overflow detected. This originated from 'main/Subsystem Reference1/Estimador de estado/Speed Measurement/SpeedCount'
+Suggested Actions:
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 86)] 
+[Warning: Parameter precision loss occurred for 'Gain' of 'main/Subsystem Reference1/Subsystem Reference1/Gain1'.  The original value of the parameter, 0.7789999999999999, cannot
+be represented exactly using the run-time data type single. The value is quantized to 0.7789999842643738. Quantization error occurred with an absolute difference of
+1.5735626135437997e-8 and a relative difference of 2.01997768105751e-08.
+Suggested Actions:
+    • To control the level of precision loss at which a warning or error is issued, adjust the diagnostic threshold settings. - Open
+    • To review details in the Parameter Quantization Advisor app, click the Open button. - Open
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 86)] 
+[Warning: Parameter precision loss occurred for 'Gain' of 'main/Subsystem Reference1/Subsystem Reference1/Gain8'.  The original value of the parameter, 0.001, cannot be represented
+exactly using the run-time data type single. The value is quantized to 0.0010000000474974513. Quantization error occurred with an absolute difference of 4.749745128457272e-11 and
+a relative difference of 4.74974512845727e-08.
+Suggested Actions:
+    • To control the level of precision loss at which a warning or error is issued, adjust the diagnostic threshold settings. - Open
+    • To review details in the Parameter Quantization Advisor app, click the Open button. - Open
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 86)] 
+[Warning: Wrap on overflow detected. This originated from 'main/Subsystem Reference1/Estimador de estado/Speed Measurement/SpeedCount'
+Suggested Actions:
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 86)] 
+[Warning: Parameter precision loss occurred for 'Gain' of 'main/Subsystem Reference1/Subsystem Reference1/Gain1'.  The original value of the parameter, 0.7789999999999999, cannot
+be represented exactly using the run-time data type single. The value is quantized to 0.7789999842643738. Quantization error occurred with an absolute difference of
+1.5735626135437997e-8 and a relative difference of 2.01997768105751e-08.
+Suggested Actions:
+    • To control the level of precision loss at which a warning or error is issued, adjust the diagnostic threshold settings. - Open
+    • To review details in the Parameter Quantization Advisor app, click the Open button. - Open
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 86)] 
+[Warning: Parameter precision loss occurred for 'Gain' of 'main/Subsystem Reference1/Subsystem Reference1/Gain8'.  The original value of the parameter, 0.001, cannot be represented
+exactly using the run-time data type single. The value is quantized to 0.0010000000474974513. Quantization error occurred with an absolute difference of 4.749745128457272e-11 and
+a relative difference of 4.74974512845727e-08.
+Suggested Actions:
+    • To control the level of precision loss at which a warning or error is issued, adjust the diagnostic threshold settings. - Open
+    • To review details in the Parameter Quantization Advisor app, click the Open button. - Open
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 86)] 
+[Warning: Wrap on overflow detected. This originated from 'main/Subsystem Reference1/Estimador de estado/Speed Measurement/SpeedCount'
+Suggested Actions:
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 86)] 
+[Warning: Parameter precision loss occurred for 'Gain' of 'main/Subsystem Reference1/Subsystem Reference1/Gain1'.  The original value of
+the parameter, 0.7789999999999999, cannot be represented exactly using the run-time data type single. The value is quantized to
+0.7789999842643738. Quantization error occurred with an absolute difference of 1.5735626135437997e-8 and a relative difference of
+2.01997768105751e-08.
+Suggested Actions:
+    • To control the level of precision loss at which a warning or error is issued, adjust the diagnostic threshold settings. - Open
+    • To review details in the Parameter Quantization Advisor app, click the Open button. - Open
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 86)] 
+[Warning: Parameter precision loss occurred for 'Gain' of 'main/Subsystem Reference1/Subsystem Reference1/Gain8'.  The original value of
+the parameter, 0.001, cannot be represented exactly using the run-time data type single. The value is quantized to 0.0010000000474974513.
+Quantization error occurred with an absolute difference of 4.749745128457272e-11 and a relative difference of 4.74974512845727e-08.
+Suggested Actions:
+    • To control the level of precision loss at which a warning or error is issued, adjust the diagnostic threshold settings. - Open
+    • To review details in the Parameter Quantization Advisor app, click the Open button. - Open
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 86)] 
+[Warning: Wrap on overflow detected. This originated from 'main/Subsystem Reference1/Estimador de estado/Speed Measurement/SpeedCount'
+Suggested Actions:
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 86)] 
+[Warning: Parameter precision loss occurred for 'Gain' of 'main/Subsystem Reference1/Subsystem Reference1/Gain1'.  The original value of
+the parameter, 0.7789999999999999, cannot be represented exactly using the run-time data type single. The value is quantized to
+0.7789999842643738. Quantization error occurred with an absolute difference of 1.5735626135437997e-8 and a relative difference of
+2.01997768105751e-08.
+Suggested Actions:
+    • To control the level of precision loss at which a warning or error is issued, adjust the diagnostic threshold settings. - Open
+    • To review details in the Parameter Quantization Advisor app, click the Open button. - Open
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 86)] 
+[Warning: Parameter precision loss occurred for 'Gain' of 'main/Subsystem Reference1/Subsystem Reference1/Gain8'.  The original value of
+the parameter, 0.001, cannot be represented exactly using the run-time data type single. The value is quantized to 0.0010000000474974513.
+Quantization error occurred with an absolute difference of 4.749745128457272e-11 and a relative difference of 4.74974512845727e-08.
+Suggested Actions:
+    • To control the level of precision loss at which a warning or error is issued, adjust the diagnostic threshold settings. - Open
+    • To review details in the Parameter Quantization Advisor app, click the Open button. - Open
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 86)] 
+[Warning: Wrap on overflow detected. This originated from 'main/Subsystem Reference1/Estimador de estado/Speed Measurement/SpeedCount'
+Suggested Actions:
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 86)] 
+[Warning: Parameter precision loss occurred for 'Gain' of 'main/Subsystem Reference1/Subsystem Reference1/Gain1'.  The original value of
+the parameter, 0.7789999999999999, cannot be represented exactly using the run-time data type single. The value is quantized to
+0.7789999842643738. Quantization error occurred with an absolute difference of 1.5735626135437997e-8 and a relative difference of
+2.01997768105751e-08.
+Suggested Actions:
+    • To control the level of precision loss at which a warning or error is issued, adjust the diagnostic threshold settings. - Open
+    • To review details in the Parameter Quantization Advisor app, click the Open button. - Open
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 86)] 
+[Warning: Parameter precision loss occurred for 'Gain' of 'main/Subsystem Reference1/Subsystem Reference1/Gain8'.  The original value of
+the parameter, 0.001, cannot be represented exactly using the run-time data type single. The value is quantized to 0.0010000000474974513.
+Quantization error occurred with an absolute difference of 4.749745128457272e-11 and a relative difference of 4.74974512845727e-08.
+Suggested Actions:
+    • To control the level of precision loss at which a warning or error is issued, adjust the diagnostic threshold settings. - Open
+    • To review details in the Parameter Quantization Advisor app, click the Open button. - Open
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 86)] 
+[Warning: Wrap on overflow detected. This originated from 'main/Subsystem Reference1/Estimador de estado/Speed Measurement/SpeedCount'
+Suggested Actions:
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 86)] 
+[Warning: Parameter precision loss occurred for 'Gain' of 'main/Subsystem Reference1/Subsystem Reference1/Gain1'.  The original value of
+the parameter, 0.7789999999999999, cannot be represented exactly using the run-time data type single. The value is quantized to
+0.7789999842643738. Quantization error occurred with an absolute difference of 1.5735626135437997e-8 and a relative difference of
+2.01997768105751e-08.
+Suggested Actions:
+    • To control the level of precision loss at which a warning or error is issued, adjust the diagnostic threshold settings. - Open
+    • To review details in the Parameter Quantization Advisor app, click the Open button. - Open
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 86)] 
+[Warning: Parameter precision loss occurred for 'Gain' of 'main/Subsystem Reference1/Subsystem Reference1/Gain8'.  The original value of
+the parameter, 0.001, cannot be represented exactly using the run-time data type single. The value is quantized to 0.0010000000474974513.
+Quantization error occurred with an absolute difference of 4.749745128457272e-11 and a relative difference of 4.74974512845727e-08.
+Suggested Actions:
+    • To control the level of precision loss at which a warning or error is issued, adjust the diagnostic threshold settings. - Open
+    • To review details in the Parameter Quantization Advisor app, click the Open button. - Open
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 86)] 
+[Warning: Wrap on overflow detected. This originated from 'main/Subsystem Reference1/Estimador de estado/Speed Measurement/SpeedCount'
+Suggested Actions:
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 86)] 
+[Warning: Parameter precision loss occurred for 'Gain' of 'main/Subsystem Reference1/Subsystem Reference1/Gain1'.  The original value of
+the parameter, 0.7789999999999999, cannot be represented exactly using the run-time data type single. The value is quantized to
+0.7789999842643738. Quantization error occurred with an absolute difference of 1.5735626135437997e-8 and a relative difference of
+2.01997768105751e-08.
+Suggested Actions:
+    • To control the level of precision loss at which a warning or error is issued, adjust the diagnostic threshold settings. - Open
+    • To review details in the Parameter Quantization Advisor app, click the Open button. - Open
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 86)] 
+[Warning: Parameter precision loss occurred for 'Gain' of 'main/Subsystem Reference1/Subsystem Reference1/Gain8'.  The original value of
+the parameter, 0.001, cannot be represented exactly using the run-time data type single. The value is quantized to 0.0010000000474974513.
+Quantization error occurred with an absolute difference of 4.749745128457272e-11 and a relative difference of 4.74974512845727e-08.
+Suggested Actions:
+    • To control the level of precision loss at which a warning or error is issued, adjust the diagnostic threshold settings. - Open
+    • To review details in the Parameter Quantization Advisor app, click the Open button. - Open
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 86)] 
+[Warning: Wrap on overflow detected. This originated from 'main/Subsystem Reference1/Estimador de estado/Speed Measurement/SpeedCount'
+Suggested Actions:
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 86)] 
+PROGRESO 10/18 cumplen=4 tiempo=19.2s ultimo=fuera_recorrido
+[Warning: Parameter precision loss occurred for 'Gain' of 'main/Subsystem Reference1/Subsystem Reference1/Gain1'.  The original value of
+the parameter, 0.7789999999999999, cannot be represented exactly using the run-time data type single. The value is quantized to
+0.7789999842643738. Quantization error occurred with an absolute difference of 1.5735626135437997e-8 and a relative difference of
+2.01997768105751e-08.
+Suggested Actions:
+    • To control the level of precision loss at which a warning or error is issued, adjust the diagnostic threshold settings. - Open
+    • To review details in the Parameter Quantization Advisor app, click the Open button. - Open
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 86)] 
+[Warning: Parameter precision loss occurred for 'Gain' of 'main/Subsystem Reference1/Subsystem Reference1/Gain8'.  The original value of
+the parameter, 0.001, cannot be represented exactly using the run-time data type single. The value is quantized to 0.0010000000474974513.
+Quantization error occurred with an absolute difference of 4.749745128457272e-11 and a relative difference of 4.74974512845727e-08.
+Suggested Actions:
+    • To control the level of precision loss at which a warning or error is issued, adjust the diagnostic threshold settings. - Open
+    • To review details in the Parameter Quantization Advisor app, click the Open button. - Open
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 86)] 
+[Warning: Wrap on overflow detected. This originated from 'main/Subsystem Reference1/Estimador de estado/Speed Measurement/SpeedCount'
+Suggested Actions:
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 86)] 
+[Warning: Parameter precision loss occurred for 'Gain' of 'main/Subsystem Reference1/Subsystem Reference1/Gain1'.  The original value of
+the parameter, 0.7789999999999999, cannot be represented exactly using the run-time data type single. The value is quantized to
+0.7789999842643738. Quantization error occurred with an absolute difference of 1.5735626135437997e-8 and a relative difference of
+2.01997768105751e-08.
+Suggested Actions:
+    • To control the level of precision loss at which a warning or error is issued, adjust the diagnostic threshold settings. - Open
+    • To review details in the Parameter Quantization Advisor app, click the Open button. - Open
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 86)] 
+[Warning: Parameter precision loss occurred for 'Gain' of 'main/Subsystem Reference1/Subsystem Reference1/Gain8'.  The original value of
+the parameter, 0.001, cannot be represented exactly using the run-time data type single. The value is quantized to 0.0010000000474974513.
+Quantization error occurred with an absolute difference of 4.749745128457272e-11 and a relative difference of 4.74974512845727e-08.
+Suggested Actions:
+    • To control the level of precision loss at which a warning or error is issued, adjust the diagnostic threshold settings. - Open
+    • To review details in the Parameter Quantization Advisor app, click the Open button. - Open
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 86)] 
+[Warning: Wrap on overflow detected. This originated from 'main/Subsystem Reference1/Estimador de estado/Speed Measurement/SpeedCount'
+Suggested Actions:
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 86)] 
+[Warning: Parameter precision loss occurred for 'Gain' of 'main/Subsystem Reference1/Subsystem Reference1/Gain1'.  The original value of
+the parameter, 0.7789999999999999, cannot be represented exactly using the run-time data type single. The value is quantized to
+0.7789999842643738. Quantization error occurred with an absolute difference of 1.5735626135437997e-8 and a relative difference of
+2.01997768105751e-08.
+Suggested Actions:
+    • To control the level of precision loss at which a warning or error is issued, adjust the diagnostic threshold settings. - Open
+    • To review details in the Parameter Quantization Advisor app, click the Open button. - Open
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 86)] 
+[Warning: Parameter precision loss occurred for 'Gain' of 'main/Subsystem Reference1/Subsystem Reference1/Gain8'.  The original value of
+the parameter, 0.001, cannot be represented exactly using the run-time data type single. The value is quantized to 0.0010000000474974513.
+Quantization error occurred with an absolute difference of 4.749745128457272e-11 and a relative difference of 4.74974512845727e-08.
+Suggested Actions:
+    • To control the level of precision loss at which a warning or error is issued, adjust the diagnostic threshold settings. - Open
+    • To review details in the Parameter Quantization Advisor app, click the Open button. - Open
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 86)] 
+[Warning: Wrap on overflow detected. This originated from 'main/Subsystem Reference1/Estimador de estado/Speed Measurement/SpeedCount'
+Suggested Actions:
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 86)] 
+[Warning: Parameter precision loss occurred for 'Gain' of 'main/Subsystem Reference1/Subsystem Reference1/Gain1'.  The original value of
+the parameter, 0.7789999999999999, cannot be represented exactly using the run-time data type single. The value is quantized to
+0.7789999842643738. Quantization error occurred with an absolute difference of 1.5735626135437997e-8 and a relative difference of
+2.01997768105751e-08.
+Suggested Actions:
+    • To control the level of precision loss at which a warning or error is issued, adjust the diagnostic threshold settings. - Open
+    • To review details in the Parameter Quantization Advisor app, click the Open button. - Open
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 86)] 
+[Warning: Parameter precision loss occurred for 'Gain' of 'main/Subsystem Reference1/Subsystem Reference1/Gain8'.  The original value of
+the parameter, 0.001, cannot be represented exactly using the run-time data type single. The value is quantized to 0.0010000000474974513.
+Quantization error occurred with an absolute difference of 4.749745128457272e-11 and a relative difference of 4.74974512845727e-08.
+Suggested Actions:
+    • To control the level of precision loss at which a warning or error is issued, adjust the diagnostic threshold settings. - Open
+    • To review details in the Parameter Quantization Advisor app, click the Open button. - Open
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 86)] 
+[Warning: Wrap on overflow detected. This originated from 'main/Subsystem Reference1/Estimador de estado/Speed Measurement/SpeedCount'
+Suggested Actions:
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 86)] 
+[Warning: Parameter precision loss occurred for 'Gain' of 'main/Subsystem Reference1/Subsystem Reference1/Gain1'.  The original value of
+the parameter, 0.7789999999999999, cannot be represented exactly using the run-time data type single. The value is quantized to
+0.7789999842643738. Quantization error occurred with an absolute difference of 1.5735626135437997e-8 and a relative difference of
+2.01997768105751e-08.
+Suggested Actions:
+    • To control the level of precision loss at which a warning or error is issued, adjust the diagnostic threshold settings. - Open
+    • To review details in the Parameter Quantization Advisor app, click the Open button. - Open
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 86)] 
+[Warning: Parameter precision loss occurred for 'Gain' of 'main/Subsystem Reference1/Subsystem Reference1/Gain8'.  The original value of
+the parameter, 0.001, cannot be represented exactly using the run-time data type single. The value is quantized to 0.0010000000474974513.
+Quantization error occurred with an absolute difference of 4.749745128457272e-11 and a relative difference of 4.74974512845727e-08.
+Suggested Actions:
+    • To control the level of precision loss at which a warning or error is issued, adjust the diagnostic threshold settings. - Open
+    • To review details in the Parameter Quantization Advisor app, click the Open button. - Open
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 86)] 
+[Warning: Wrap on overflow detected. This originated from 'main/Subsystem Reference1/Estimador de estado/Speed Measurement/SpeedCount'
+Suggested Actions:
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 86)] 
+[Warning: Parameter precision loss occurred for 'Gain' of 'main/Subsystem Reference1/Subsystem Reference1/Gain1'.  The original value of
+the parameter, 0.7789999999999999, cannot be represented exactly using the run-time data type single. The value is quantized to
+0.7789999842643738. Quantization error occurred with an absolute difference of 1.5735626135437997e-8 and a relative difference of
+2.01997768105751e-08.
+Suggested Actions:
+    • To control the level of precision loss at which a warning or error is issued, adjust the diagnostic threshold settings. - Open
+    • To review details in the Parameter Quantization Advisor app, click the Open button. - Open
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 86)] 
+[Warning: Parameter precision loss occurred for 'Gain' of 'main/Subsystem Reference1/Subsystem Reference1/Gain8'.  The original value of
+the parameter, 0.001, cannot be represented exactly using the run-time data type single. The value is quantized to 0.0010000000474974513.
+Quantization error occurred with an absolute difference of 4.749745128457272e-11 and a relative difference of 4.74974512845727e-08.
+Suggested Actions:
+    • To control the level of precision loss at which a warning or error is issued, adjust the diagnostic threshold settings. - Open
+    • To review details in the Parameter Quantization Advisor app, click the Open button. - Open
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 86)] 
+[Warning: Wrap on overflow detected. This originated from 'main/Subsystem Reference1/Estimador de estado/Speed Measurement/SpeedCount'
+Suggested Actions:
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 86)] 
+[Warning: Parameter precision loss occurred for 'Gain' of 'main/Subsystem Reference1/Subsystem Reference1/Gain1'.  The original value of
+the parameter, 0.7789999999999999, cannot be represented exactly using the run-time data type single. The value is quantized to
+0.7789999842643738. Quantization error occurred with an absolute difference of 1.5735626135437997e-8 and a relative difference of
+2.01997768105751e-08.
+Suggested Actions:
+    • To control the level of precision loss at which a warning or error is issued, adjust the diagnostic threshold settings. - Open
+    • To review details in the Parameter Quantization Advisor app, click the Open button. - Open
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 86)] 
+[Warning: Parameter precision loss occurred for 'Gain' of 'main/Subsystem Reference1/Subsystem Reference1/Gain8'.  The original value of
+the parameter, 0.001, cannot be represented exactly using the run-time data type single. The value is quantized to 0.0010000000474974513.
+Quantization error occurred with an absolute difference of 4.749745128457272e-11 and a relative difference of 4.74974512845727e-08.
+Suggested Actions:
+    • To control the level of precision loss at which a warning or error is issued, adjust the diagnostic threshold settings. - Open
+    • To review details in the Parameter Quantization Advisor app, click the Open button. - Open
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 86)] 
+[Warning: Wrap on overflow detected. This originated from 'main/Subsystem Reference1/Estimador de estado/Speed Measurement/SpeedCount'
+Suggested Actions:
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 86)] 
+[Warning: Parameter precision loss occurred for 'Gain' of 'main/Subsystem Reference1/Subsystem Reference1/Gain1'.  The original value of
+the parameter, 0.7789999999999999, cannot be represented exactly using the run-time data type single. The value is quantized to
+0.7789999842643738. Quantization error occurred with an absolute difference of 1.5735626135437997e-8 and a relative difference of
+2.01997768105751e-08.
+Suggested Actions:
+    • To control the level of precision loss at which a warning or error is issued, adjust the diagnostic threshold settings. - Open
+    • To review details in the Parameter Quantization Advisor app, click the Open button. - Open
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 86)] 
+[Warning: Parameter precision loss occurred for 'Gain' of 'main/Subsystem Reference1/Subsystem Reference1/Gain8'.  The original value of
+the parameter, 0.001, cannot be represented exactly using the run-time data type single. The value is quantized to 0.0010000000474974513.
+Quantization error occurred with an absolute difference of 4.749745128457272e-11 and a relative difference of 4.74974512845727e-08.
+Suggested Actions:
+    • To control the level of precision loss at which a warning or error is issued, adjust the diagnostic threshold settings. - Open
+    • To review details in the Parameter Quantization Advisor app, click the Open button. - Open
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 86)] 
+[Warning: Wrap on overflow detected. This originated from 'main/Subsystem Reference1/Estimador de estado/Speed Measurement/SpeedCount'
+Suggested Actions:
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 86)] 
+PROGRESO 18/18 cumplen=8 tiempo=30.8s ultimo=cumple
+FINAL 8/18 admisibles.
+    Kp      Kd     Ki     Xmax      TAsentamiento     Imax      Vmax 
+    ___    ____    __    _______    _____________    ______    ______
+
+    144    16.8     0    0.33993        4.711        4.7887    4.6529
+    196    16.8     0    0.33242        4.322        4.7887    5.8535
+    144    19.6     0    0.34602         4.97        4.7887    4.4226
+    196    19.6     0    0.32494        4.626        4.7887     5.556
+    144    16.8    20    0.34245       14.437        4.7887    4.6799
+    196    16.8    20    0.33481       13.957        4.7887    5.8814
+    144    19.6    20     0.3476       15.531        4.7887    4.4419
+    196    19.6    20    0.32707       15.228        4.7887    5.5788
+

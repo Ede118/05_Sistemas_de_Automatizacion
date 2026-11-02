@@ -1,0 +1,265 @@
+
+	Trial License -- for use to evaluate programs for possible purchase as an end-user only.
+
+    ----------------------------------------------------
+	Your license will expire in 6 days.
+	Please contact your system administrator or
+	go to MathWorks.com to renew this license.
+    ----------------------------------------------------
+       Name: 'Parallel Computing Toolbox'
+    Version: '26.2'
+    Release: '(R2026b)'
+       Date: '22-May-2026'
+
+     1
+
+CARPETA_RESULTADOS C:\Users\fedeb\Documents\Github\05_Sistemas_de_Automatizacion\Pendulo Invertido\resultados_barrido_theta\20261101_175259_469
+BARRIDO 4 casos; posicion fija: Kpx=0.10197162 Kdx=0.18354892 Kix=0
+INICIALES theta=2.7925268 x=0 dx=0 dtheta=0 i=0; paralelo=0
+[Warning: Parameter precision loss occurred for 'Gain' of 'main/Subsystem Reference1/Subsystem Reference1/Gain1'.  The original value of the parameter, 0.7789999999999999, cannot
+be represented exactly using the run-time data type single. The value is quantized to 0.7789999842643738. Quantization error occurred with an absolute difference of
+1.5735626135437997e-8 and a relative difference of 2.01997768105751e-08.
+Suggested Actions:
+    • To control the level of precision loss at which a warning or error is issued, adjust the diagnostic threshold settings. - Open
+    • To review details in the Parameter Quantization Advisor app, click the Open button. - Open
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 186)] 
+[Warning: Parameter precision loss occurred for 'Gain' of 'main/Subsystem Reference1/Subsystem Reference1/Gain8'.  The original value of the parameter, 0.001, cannot be represented
+exactly using the run-time data type single. The value is quantized to 0.0010000000474974513. Quantization error occurred with an absolute difference of 4.749745128457272e-11 and
+a relative difference of 4.74974512845727e-08.
+Suggested Actions:
+    • To control the level of precision loss at which a warning or error is issued, adjust the diagnostic threshold settings. - Open
+    • To review details in the Parameter Quantization Advisor app, click the Open button. - Open
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 186)] 
+[Warning: Model 'main' contains 1 algebraic loops.
+Suggested Actions:
+    • Highlight and view information about the algebraic loops in the model using the Simulink.BlockDiagram.getAlgebraicLoops function. - Open
+    • Suppress this diagnostic by setting the 'Algebraic Loop' diagnostic parameter to 'none'. - Fix
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 186)] 
+Found algebraic loop that contains: 
+main/Subsystem Reference/Gain17
+main/Subsystem Reference/Sum11
+main/Subsystem Reference/Gain14
+main/Subsystem Reference/Product3
+main/Subsystem Reference/Gain12
+main/Subsystem Reference/Sum8
+main/Subsystem Reference/Sum6
+main/Subsystem Reference/Gain
+main/Subsystem Reference/Product6 (algebraic variable)
+[Warning: Wrap on overflow detected. This originated from 'main/Subsystem Reference1/Estimador de estado/Speed Measurement/SpeedCount'
+Suggested Actions:
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 186)] 
+[Warning: Parameter precision loss occurred for 'Gain' of 'main/Subsystem Reference1/Subsystem Reference1/Gain1'.  The original value of the parameter, 0.7789999999999999, cannot
+be represented exactly using the run-time data type single. The value is quantized to 0.7789999842643738. Quantization error occurred with an absolute difference of
+1.5735626135437997e-8 and a relative difference of 2.01997768105751e-08.
+Suggested Actions:
+    • To control the level of precision loss at which a warning or error is issued, adjust the diagnostic threshold settings. - Open
+    • To review details in the Parameter Quantization Advisor app, click the Open button. - Open
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 186)] 
+[Warning: Parameter precision loss occurred for 'Gain' of 'main/Subsystem Reference1/Subsystem Reference1/Gain8'.  The original value of the parameter, 0.001, cannot be represented
+exactly using the run-time data type single. The value is quantized to 0.0010000000474974513. Quantization error occurred with an absolute difference of 4.749745128457272e-11 and
+a relative difference of 4.74974512845727e-08.
+Suggested Actions:
+    • To control the level of precision loss at which a warning or error is issued, adjust the diagnostic threshold settings. - Open
+    • To review details in the Parameter Quantization Advisor app, click the Open button. - Open
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 186)] 
+[Warning: Wrap on overflow detected. This originated from 'main/Subsystem Reference1/Estimador de estado/Speed Measurement/SpeedCount'
+Suggested Actions:
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 186)] 
+[Warning: Parameter precision loss occurred for 'Gain' of 'main/Subsystem Reference1/Subsystem Reference1/Gain1'.  The original value of
+the parameter, 0.7789999999999999, cannot be represented exactly using the run-time data type single. The value is quantized to
+0.7789999842643738. Quantization error occurred with an absolute difference of 1.5735626135437997e-8 and a relative difference of
+2.01997768105751e-08.
+Suggested Actions:
+    • To control the level of precision loss at which a warning or error is issued, adjust the diagnostic threshold settings. - Open
+    • To review details in the Parameter Quantization Advisor app, click the Open button. - Open
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 186)] 
+[Warning: Parameter precision loss occurred for 'Gain' of 'main/Subsystem Reference1/Subsystem Reference1/Gain8'.  The original value of
+the parameter, 0.001, cannot be represented exactly using the run-time data type single. The value is quantized to 0.0010000000474974513.
+Quantization error occurred with an absolute difference of 4.749745128457272e-11 and a relative difference of 4.74974512845727e-08.
+Suggested Actions:
+    • To control the level of precision loss at which a warning or error is issued, adjust the diagnostic threshold settings. - Open
+    • To review details in the Parameter Quantization Advisor app, click the Open button. - Open
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 186)] 
+[Warning: Wrap on overflow detected. This originated from 'main/Subsystem Reference1/Estimador de estado/Speed Measurement/SpeedCount'
+Suggested Actions:
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 186)] 
+[Warning: Parameter precision loss occurred for 'Gain' of 'main/Subsystem Reference1/Subsystem Reference1/Gain1'.  The original value of
+the parameter, 0.7789999999999999, cannot be represented exactly using the run-time data type single. The value is quantized to
+0.7789999842643738. Quantization error occurred with an absolute difference of 1.5735626135437997e-8 and a relative difference of
+2.01997768105751e-08.
+Suggested Actions:
+    • To control the level of precision loss at which a warning or error is issued, adjust the diagnostic threshold settings. - Open
+    • To review details in the Parameter Quantization Advisor app, click the Open button. - Open
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 186)] 
+[Warning: Parameter precision loss occurred for 'Gain' of 'main/Subsystem Reference1/Subsystem Reference1/Gain8'.  The original value of
+the parameter, 0.001, cannot be represented exactly using the run-time data type single. The value is quantized to 0.0010000000474974513.
+Quantization error occurred with an absolute difference of 4.749745128457272e-11 and a relative difference of 4.74974512845727e-08.
+Suggested Actions:
+    • To control the level of precision loss at which a warning or error is issued, adjust the diagnostic threshold settings. - Open
+    • To review details in the Parameter Quantization Advisor app, click the Open button. - Open
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 186)] 
+[Warning: Wrap on overflow detected. This originated from 'main/Subsystem Reference1/Estimador de estado/Speed Measurement/SpeedCount'
+Suggested Actions:
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 186)] 
+PROGRESO 4/4 cumplen=2 tiempo=12.3s ultimo=cumple
+FINAL 2/4 admisibles.
+    Kp      Kd     Ki     Xmax      TAsentamiento     Imax      Vmax 
+    ___    ____    __    _______    _____________    ______    ______
+
+    144    16.8     0    0.33993        4.711        4.7887    4.6529
+    144    16.8    20    0.34245       14.437        4.7887    4.6799
+
+Starting parallel pool (parpool) using the 'Processes' profile ...
+Connected to parallel pool with 2 workers.
+POOL 2 workers de procesos; se mantiene abierto para reutilizarlo.
+CARPETA_RESULTADOS C:\Users\fedeb\Documents\Github\05_Sistemas_de_Automatizacion\Pendulo Invertido\resultados_barrido_theta\20261101_175332_272
+BARRIDO 4 casos; posicion fija: Kpx=0.10197162 Kdx=0.18354892 Kix=0
+INICIALES theta=2.7925268 x=0 dx=0 dtheta=0 i=0; paralelo=1
+[01-Nov-2026 17:54:06] Checking for availability of parallel pool...
+[01-Nov-2026 17:54:06] Starting Simulink on parallel workers...
+Analyzing and transferring files to the workers ...done.
+Analyzing and transferring files to the workers ...done.
+[01-Nov-2026 17:54:15] Configuring simulation cache folder on parallel workers...
+[01-Nov-2026 17:54:15] Running SetupFcn on parallel workers...
+[01-Nov-2026 17:54:17] Loading model on parallel workers...
+[01-Nov-2026 17:54:23] Running simulations...
+[01-Nov-2026 17:54:33] Completed 1 of 4 simulation runs
+[01-Nov-2026 17:54:33] Received simulation output (size: 276.37 KB) for run 1 from parallel worker.
+[01-Nov-2026 17:54:36] Completed 2 of 4 simulation runs
+[01-Nov-2026 17:54:36] Received simulation output (size: 7.51 MB) for run 2 from parallel worker.
+[01-Nov-2026 17:54:36] Completed 3 of 4 simulation runs
+[01-Nov-2026 17:54:36] Received simulation output (size: 265.35 KB) for run 3 from parallel worker.
+[01-Nov-2026 17:54:37] Completed 4 of 4 simulation runs
+[01-Nov-2026 17:54:37] Received simulation output (size: 7.46 MB) for run 4 from parallel worker.
+[01-Nov-2026 17:54:37] Cleaning up parallel workers...
+[01-Nov-2026 17:54:37] Running CleanupFcn on parallel workers...
+PROGRESO 4/4 cumplen=2 tiempo=34.4s ultimo=cumple
+FINAL 2/4 admisibles.
+    Kp      Kd     Ki     Xmax      TAsentamiento     Imax      Vmax 
+    ___    ____    __    _______    _____________    ______    ______
+
+    144    16.8     0    0.33993        4.711        4.7887    4.6529
+    144    16.8    20    0.34245       14.437        4.7887    4.6799
+
+SECUENCIAL_PARALELO_EQUIVALENTES
+[Warning: x_init=-0.5 m incumple |x|<0.4 m desde t=0; ningun ensayo puede aprobar.] 
+[> In barrer_pid_theta (line 91)] 
+CARPETA_RESULTADOS C:\Users\fedeb\Documents\Github\05_Sistemas_de_Automatizacion\Pendulo Invertido\resultados_barrido_theta\20261101_175445_411
+BARRIDO 1 casos; posicion fija: Kpx=0.10197162 Kdx=0.18354892 Kix=0
+INICIALES theta=2.7925268 x=-0.5 dx=0 dtheta=0 i=0; paralelo=0
+[Warning: Parameter precision loss occurred for 'Gain' of 'main/Subsystem Reference1/Subsystem Reference1/Gain1'.  The original value of
+the parameter, 0.7789999999999999, cannot be represented exactly using the run-time data type single. The value is quantized to
+0.7789999842643738. Quantization error occurred with an absolute difference of 1.5735626135437997e-8 and a relative difference of
+2.01997768105751e-08.
+Suggested Actions:
+    • To control the level of precision loss at which a warning or error is issued, adjust the diagnostic threshold settings. - Open
+    • To review details in the Parameter Quantization Advisor app, click the Open button. - Open
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 186)] 
+[Warning: Parameter precision loss occurred for 'Gain' of 'main/Subsystem Reference1/Subsystem Reference1/Gain8'.  The original value of
+the parameter, 0.001, cannot be represented exactly using the run-time data type single. The value is quantized to 0.0010000000474974513.
+Quantization error occurred with an absolute difference of 4.749745128457272e-11 and a relative difference of 4.74974512845727e-08.
+Suggested Actions:
+    • To control the level of precision loss at which a warning or error is issued, adjust the diagnostic threshold settings. - Open
+    • To review details in the Parameter Quantization Advisor app, click the Open button. - Open
+    •  - Suppress
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 186)] 
+[Warning: Model 'main' contains 1 algebraic loops.
+Suggested Actions:
+    • Highlight and view information about the algebraic loops in the model using the Simulink.BlockDiagram.getAlgebraicLoops function. -
+    Open
+    • Suppress this diagnostic by setting the 'Algebraic Loop' diagnostic parameter to 'none'. - Fix
+] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In barrer_pid_theta (line 186)] 
+Found algebraic loop that contains: 
+main/Subsystem Reference/Gain17
+main/Subsystem Reference/Sum11
+main/Subsystem Reference/Gain14
+main/Subsystem Reference/Product3
+main/Subsystem Reference/Gain12
+main/Subsystem Reference/Sum8
+main/Subsystem Reference/Sum6
+main/Subsystem Reference/Gain
+main/Subsystem Reference/Product6 (algebraic variable)
+PROGRESO 1/1 cumplen=0 tiempo=1.7s ultimo=fuera_recorrido
+FINAL 0/1 admisibles.
+    Kp    Kd    Ki    Xmax    TAsentamiento    Imax    Vmax
+    __    __    __    ____    _____________    ____    ____
+
+
+INICIALES_DEL_ARCHIVO_VERIFICADAS
